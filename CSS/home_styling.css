@@ -193,7 +193,7 @@ section.featured button {
 p.fine-print {
     color: #111111;
     font-family: monospace;
-    font-size: small;
+    font-size: x-small;
 }
 
 @media all and (min-width: 900px) {
