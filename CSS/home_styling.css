@@ -190,10 +190,10 @@ section.featured button {
     margin: 16px;
 }
 
-p.fine-print {
+section.featured p.fine-print {
     color: #111111;
     font-family: monospace;
-    font-size: x-small;
+    font-size: small;
 }
 
 @media all and (min-width: 900px) {
