@@ -180,6 +180,22 @@ section.home button {
     margin: 24px;
 }
 
+section.featured {
+    text-align: center;
+}
+
+section.featured button {
+    width: auto;
+    height: auto;
+    margin: 16px;
+}
+
+p.fine-print {
+    color: #111111;
+    font-family: monospace;
+    font-size: small;
+}
+
 @media all and (min-width: 900px) {
     article {
         float: left;
