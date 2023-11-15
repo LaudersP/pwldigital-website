@@ -187,7 +187,7 @@ section.featured {
 section.featured button {
     width: auto;
     height: auto;
-    margin: 16px;
+    margin: 0px;
 }
 
 section.featured p.fine-print {
