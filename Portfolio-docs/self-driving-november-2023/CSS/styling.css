@@ -1,0 +1,218 @@
+/* technical stuff - set sizeing to border box method */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after { 
+    box-sizing: inherit;
+}
+
+/* Actual Styling */
+body {
+    color: #111111;
+    background-color: #d3d3d3;
+    border-radius:  16px;
+    font-family: monospace;
+    font-size: large;
+    margin: 20px;
+    padding-top: 8px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: auto;
+    min-width: 256px;
+}
+
+/* Background */
+html {
+    background-color: #7d7d7d;
+    background-size: 8px 8px;
+}
+
+section {
+    background-color:#f5f5f5;
+    margin-bottom: 24px;
+    overflow: auto;
+    min-height: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+ 
+/* Header */
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+/* Aside */
+aside h1 {
+    text-align: center;
+}
+
+/* Footer */
+footer p.copyright {
+    float: left;
+    margin-top: 0px;
+}
+
+footer p.contact {
+    text-align: right;
+}
+
+/* The Menu */
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #00bfffbb;
+    border: 2px solid #111111;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+}
+
+nav li.selected {
+    color: white;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Image Sizing */
+img.small {
+    float: left;
+    height: 200px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+img.medium {
+    max-width: 360px;
+    width: 50%;
+}
+
+img.large {
+    width: 100%;
+}
+
+img.headshot {
+    float: left;
+    max-width: 200px;
+    width: 15%;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+/* Warning Message */
+p.warning {
+    border: 2px solid #00AFEB;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #C5EBFB;
+}
+
+p.warning::before {
+    color: black;
+    content: "Warning: ";
+    font-weight: bold;
+}
+
+/* Division */
+div.pdf-container {
+    max-height: 90vh;
+    overflow: auto;
+    padding-bottom: 24px;
+}
+
+/* Border */
+body, section, img {
+    border: 2px solid #111111;
+    border-radius: 16px;
+}
+
+/* Social Buttons */
+div.socials img {
+    width: 150px;
+    padding: 16px;
+    border: none;
+}
+
+section.socials {
+    text-align: center;
+}
+
+/* Home Page */
+section.home {
+    text-align: center;
+}
+
+section.home button {
+    width: 100px;
+    height: 30px;
+    margin: 24px;
+}
+
+section.featured {
+    text-align: center;
+}
+
+section.featured button {
+    width: auto;
+    height: auto;
+    margin: 0px;
+}
+
+section.featured p.fine-print {
+    color: #111111;
+    font-family: monospace;
+    font-size: small;
+}
+
+nav.back-button {
+    text-align: left;
+}
+
+@media all and (min-width: 900px) {
+    article {
+        float: left;
+        width: 75%;
+    }
+
+    aside {
+        float: left;
+        padding-left: 24px;
+        width: 25%;
+    }
+
+    footer {
+        clear: both;
+    }
+}
