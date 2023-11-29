@@ -221,35 +221,6 @@ iframe {
 
 /* Responsive Layout */
 @media only screen and (max-width: 600px) {
-    body {
-        font-size: medium; /* Adjust font size for better readability on smaller screens */
-    }
-
-    header p {
-        font-size: 24px; /* Adjust header font size on smaller screens */
-    }
-
-    section {
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    nav ul {
-        display: block;
-        text-align: center;
-    }
-
-    nav ul li {
-        display: block;
-        border: none;
-        padding: 8px;
-        margin-bottom: 8px;
-    }
-
-    nav ul li:last-child {
-        margin-bottom: 0;
-    }
-
     /* Hide PDF container on smaller screens */
     div.pdf-container {
         display: none;
